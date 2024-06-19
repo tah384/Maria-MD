@@ -3,13 +3,13 @@ const chalk = require('chalk');
 require('dotenv').config();
 
 //contact details
-global.ownernumber = [ process.env.OWNER_NUMBER || "919931122319"],
-global.ownername = process.env.OWNER_NAME || "💙𓆩‎✘AʏᴜSʜ✘𓆪_✰",
+global.ownernumber = [ process.env.OWNER_NUMBER || "923161581842"],
+global.ownername = process.env.OWNER_NAME || "Taha Yaseen",
 global.ytname = "YT: AyushBotz.inc"
 global.socialm = "GitHub: Ayushpandey023"
-global.location = "Indian"
+global.location = "Pakistan"
 
-global.botname = process.env.BOTNAME || "𝐌𝐀𝐑𝐈𝐀-𝐌𝐃",//name of the bot
+global.botname = process.env.BOTNAME || "TAHA-MD",//name of the bot
 
 //sticker details
 global.stickername = process.env.STICKER || "💙𓆩‎✘AʏᴜSʜ✘𓆪_✰",
@@ -20,7 +20,7 @@ global.themeemoji = '🧩'
 global.wm = "Ayush botz inc."
 
 //theme link
-global.link = 'https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I'
+global.link = 'https://whatsapp.com/channel/0029VaiOrc559PwVqANc6d3v'
 
 //custom prefix
 global.prefa = process.env.PREFIX || ".",
@@ -39,11 +39,11 @@ global.autoread_status = false //auto view status/story
 
 //reply messages
 global.mess = {
-    done: '🍭 *Here you go, darling!* ',
-    prem: '🍭 *My darling, this feature is reserved for premium users only*',
-    admin: '🍭 *My darling, this feature is reserved for admins only*',
-    botAdmin: '🍭 *Darling, this feature can only be used when the bot is a group admin* ',
-    owner: '🍭 *My dearest, this feature is reserved for the owner only*',
+    done: ' *Here you go, T_Y!* ',
+    prem: ' *My darling, this feature is reserved for premium users only*',
+    admin: ' *My darling, this feature is reserved for admins only*',
+    botAdmin: ' *Darling, this feature can only be used when the bot is a group admin* ',
+    owner: ' *My dearest, this feature is reserved for the owner only*',
     group: '🍭 *Sweetheart, this feature is exclusively for groups*',
     private: '🍭 *My love, this feature is exclusively for private chats*',
     wait: '🍭 *Darling, in process...* ',    
@@ -51,12 +51,12 @@ global.mess = {
 }
 
 module.exports = {
-ownernumber: global.ownernumber,
-ownername: global.ownername,
-sessionId: process.env.id,
+ownernumber: global.ownernumber || "923161581842",
+ownername: global.ownername || "Taha Yaseen",
+sessionId: process.env.id || "_M_A_R_I_A_RXhwbGljaXRDaGxvZQo="
 AUTO_BLOCK : process.env.PM_BLOCKER,
-STATUS_SAVER : "true",
-ANTI_BOT:"true",
+STATUS_SAVER : "false",
+ANTI_BOT:"false",
 }
 
 
